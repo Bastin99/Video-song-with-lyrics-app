@@ -20,7 +20,7 @@ class _SaintsListState extends State<SaintsList> {
     List<KGF> kgfs = [];
     List<String> z = [];
     for (var y in qn.docs) {
-      String t = y.data()['image'];
+      String t = y.data()['image' ];
       String titi = y.data()['nameT'];
       String pada = y.data()['nameE'];
       KGF jerry = KGF(t, titi, pada);
